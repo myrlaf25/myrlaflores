@@ -31,10 +31,12 @@ h2 {
 
 p {
     color:rgb(247, 150, 32);
-    position: relative;
-    top: 15px;
-    left: 350px;
-    }
+    display: box;
+    border-style: solid;
+    border-color:snow;
+    text-align: center;
+    
+}
 .card header {
     padding: 20px;
 }
@@ -43,26 +45,29 @@ p {
     width: 75%;
 }
 #my-img {
-    position: relative;
-    top: 20px;
-    left: 175px;
+    display: box;
+    border-style: solid;
+    border-color:rgb(247, 150, 32);
+    border-width: 10px;
+    text-align: center;
+    
 }
 
 @media screen and (max-width: 992px) {
     .card {
-        width: 85%;
-        background-color: #75fadf;
+        width: 100%;
+        background-color: #19433a;
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        width: 85%;
+        width: 100%;
         background:rgb(105, 103, 104);
     }
 }
 @media screen and (max-width: 576px) {
     .card {
-        width: 85%;
+        width: 100%;
         background: rgb(1, 83, 83);
     }
 }
