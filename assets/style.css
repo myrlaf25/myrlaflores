@@ -1,7 +1,15 @@
 header{
+    display: box;
     text-align: center;
-    background: black;
+    background: #379683;
 }
 h1{
-    color: pink;
+    color: #75fadf;;
+}
+.header {
+    background-color: #edf5e1;
+    color: #023114;
+}
+#demo {
+    background:rgb(0, 0, 0)
 }
