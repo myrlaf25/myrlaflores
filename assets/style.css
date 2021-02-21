@@ -1,5 +1,9 @@
 header{
+    flex: 1 0 100px;
     display: box;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
     text-align: center;
     background: #379683;
 }
@@ -11,5 +15,38 @@ h1{
     color: #023114;
 }
 #demo {
-    background:rgb(0, 0, 0)
+    background-color: black;
+    }
+
+p {
+    color:bisque;
+    }
+.card header {
+    padding: 20px;
+}
+
+.card img {
+    width: 75%;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .card {
+        width: 85%;
+    }
+}
+section.card header img p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
 }
