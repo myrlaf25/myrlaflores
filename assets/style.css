@@ -30,7 +30,10 @@ h2 {
 }    
 
 p {
-    color:bisque;
+    color:rgb(247, 150, 32);
+    position: relative;
+    top: 15px;
+    left: 350px;
     }
 .card header {
     padding: 20px;
@@ -38,6 +41,11 @@ p {
 
 .card img {
     width: 75%;
+}
+#my-img {
+    position: relative;
+    top: 20px;
+    left: 175px;
 }
 
 @media screen and (max-width: 992px) {
