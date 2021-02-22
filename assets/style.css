@@ -15,86 +15,20 @@ header {
 }
 
 body {
-    background: radial-gradient(circle, black, white, #379683, orange); 
+    background: radial-gradient(circle, #379683, orange); 
     font-family:Arial, Helvetica, sans-serif;  
 } 
 
-h1 {
-    color: black;
-    border-bottom-style: double;
-
-}
-
-h2 {
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    overflow:auto;
-}   
-
-nav {
-    float: right;
-}
-
-.flex-container {
-    display: block;
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    
-} 
-.card h3 {
-    overflow: top;
-    text-align:center;
-} 
-.card p {
-    color: #011508;
-    display: box;
-    border-style: solid;
-    border-color:snow;
-    margin:30px;
-    text-align: center;
-    padding: 10px;
-    overflow: auto;
-    
-}
- 
-#my-img, #my-img2 {
-    width: 100%;
-    display: box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    box-sizing: inherit;
-           
-}
-#my-img1, #my-img3 {
-    align-items: center;
-    border-style: solid;
-    border-color:#379683;
-    border-width: 10px;
-    margin: 10px;
-    padding: 15px;
-    line-height: 75px;
-
-}
-.skills {
-    /* position: bottom; */
-    margin-top: 2500px;
-    /* left: 250px;
-    right: 250px; */
-    text-align: center;
-    border-bottom-style: double;
-    overflow: auto;
-}
 footer { 
     display: block;  
     position: bottom; 
     text-align: center;
      
 }
+.flex-container {
+    display: flex;
+}
+
 
 
 @media screen and (max-width: 992px) {
