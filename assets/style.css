@@ -1,70 +1,104 @@
 * {
     box-sizing: border-box;
 }
-header{
+header {
     flex: 1 0 100px;
-    display: box;
-    margin: 25px;
-    padding: 30px;
+    display:inline-flexbox;
+    margin: 10px;
+    padding: 20px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 15px;
     text-align: center;
     background: #379683;
-    overflow:auto;
-}
-#my-tree {
-    background:center;
+    font-size: 30px;
+    overflow: auto;
 }
 
 body {
     background: radial-gradient(circle, black, white, #379683, orange); 
-    font-family:Arial, Helvetica, sans-serif;
-    
+    font-family:Arial, Helvetica, sans-serif;  
+} 
+
+h1 {
+    color: black;
+    border-bottom-style: double;
+
 }
-h1{
-    color: #000c0a;
-}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    overflow:auto;
+}   
+
 nav {
     float: right;
 }
-.header {
-    background-color: #8ea56c;
-    color: #023114;
-}
-h2 {
-    color: #013d31;
-    font-size: 30px;
-}    
 
+.flex-container {
+    display: block;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+} 
+.card h3 {
+    overflow: top;
+    text-align:center;
+} 
 .card p {
-    color: #023114;
+    color: #011508;
     display: box;
     border-style: solid;
     border-color:snow;
+    margin:30px;
     text-align: center;
     padding: 10px;
+    overflow: auto;
     
 }
-.card header {
-    padding: 20px;
+ 
+#my-img, #my-img2 {
+    width: 100%;
+    display: box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: inherit;
+           
+}
+#my-img1, #my-img3 {
+    align-items: center;
+    border-style: solid;
+    border-color:#379683;
+    border-width: 10px;
+    margin: 10px;
+    padding: 15px;
+    line-height: 75px;
+
+}
+.skills {
+    /* position: bottom; */
+    margin-top: 2500px;
+    /* left: 250px;
+    right: 250px; */
+    text-align: center;
+    border-bottom-style: double;
+    overflow: auto;
+}
+footer { 
+    display: block;  
+    position: bottom; 
+    text-align: center;
+     
 }
 
-.card img {
-    width: 75%;
-}
-#my-img {
-    display: box;
-    border-style: solid;
-    border-color:rgb(247, 150, 32);
-    border-width: 10px;
-    text-align: center;
-    position: relative;
-    left: 200px;
-    
-}
 
 @media screen and (max-width: 992px) {
-    .card {
+    .flex-container {
         width: 100%;
         background-color: #19433a;
 }
@@ -74,30 +108,9 @@ h2 {
         width: 100%;
         background:rgb(105, 103, 104);
     }
-}
 @media screen and (max-width: 576px) {
     .card {
         width: 100%;
         background: rgb(1, 83, 83);
-    }
 
-}
-section.card header img {
-    display: flex;
-    margin-top: 3%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px;
-}
-.skills {
-    display: box;
-    background-color:rgb(247, 150, 32);
-    text-align: center;
-    color: black;
-    position: relative;
-    left: 200px;
-
-}
-footer {    
-    text-align: center;
-}
+} 
