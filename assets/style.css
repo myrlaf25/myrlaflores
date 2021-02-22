@@ -4,37 +4,45 @@
 header{
     flex: 1 0 100px;
     display: box;
-    padding: 10px;
+    margin: 25px;
+    padding: 30px;
     border-style: solid;
     border-width: 1px;
     text-align: center;
     background: #379683;
+    overflow:auto;
 }
-
+#my-tree {
+    background:center;
+}
 
 body {
+    background: radial-gradient(circle, black, white, #379683, orange); 
     font-family:Arial, Helvetica, sans-serif;
+    
 }
 h1{
-    color: #75fadf;
+    color: #000c0a;
+}
+nav {
+    float: right;
 }
 .header {
     background-color: #8ea56c;
     color: #023114;
 }
-#demo {
-    background-color: black;
-    }
 h2 {
-    color:seashell;
+    color: #013d31;
+    font-size: 30px;
 }    
 
-p {
-    color:rgb(247, 150, 32);
+.card p {
+    color: #023114;
     display: box;
     border-style: solid;
     border-color:snow;
     text-align: center;
+    padding: 10px;
     
 }
 .card header {
@@ -50,6 +58,8 @@ p {
     border-color:rgb(247, 150, 32);
     border-width: 10px;
     text-align: center;
+    position: relative;
+    left: 200px;
     
 }
 
@@ -70,11 +80,24 @@ p {
         width: 100%;
         background: rgb(1, 83, 83);
     }
+
 }
-section.card header img p {
+section.card header img {
     display: flex;
     margin-top: 3%;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px;
+}
+.skills {
+    display: box;
+    background-color:rgb(247, 150, 32);
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 200px;
+
+}
+footer {    
+    text-align: center;
 }
