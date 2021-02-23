@@ -1,22 +1,42 @@
 * {
     box-sizing: border-box;
 }
-header {
-    flex: 1 0 100px;
-    display:inline-flexbox;
-    margin: 10px;
-    padding: 20px;
+.masthead {
     border-style: solid;
     border-width: 15px;
-    text-align: center;
-    background: #379683;
-    font-size: 30px;
-    overflow: auto;
+    background-image: url(https://images.unsplash.com/photo-1541882270037-d3cf216b2ca4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+    padding: 1px;
+          
 }
-
+.masthead-intro {
+    margin-bottom: 1px;
+    font-size:3em;
+    color: blanchedalmond;
+    text-align: center;
+    -webkit-text-stroke: 2px orange;
+}
+.masthead-heading {
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 7em;
+    letter-spacing: 0.01em;
+    text-transform:uppercase;
+    color:blueviolet;
+    text-align: center;
+    -webkit-text-stroke: 2px blanchedalmond;
+}
+nav {
+    display: flex;
+    justify-content:flex-end;
+    justify-content:space-evenly;
+}
+  
 body {
-    background: radial-gradient(circle, #379683, orange); 
+    background: radial-gradient(circle, blueviolet, orange); 
     font-family:Arial, Helvetica, sans-serif;  
+}
+.sub-header {
+    
 } 
 
 footer { 
@@ -27,9 +47,23 @@ footer {
 }
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+        
 }
-
-
+#my-img {
+    flex: 1 1 0
+}
+#my-img1 {
+    flex: 1 1 0
+}
+#my-img2 {
+    flex: 1 1 0
+}
+#my-img3 {
+    flex: 1 1 0
+}
 
 @media screen and (max-width: 992px) {
     .flex-container {
@@ -41,6 +75,7 @@ footer {
     .card {
         width: 100%;
         background:rgb(105, 103, 104);
+        
     }
 @media screen and (max-width: 576px) {
     .card {
