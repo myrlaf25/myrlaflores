@@ -61,31 +61,46 @@ body {
   
 
 }
-.main-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    margin: 20px;
-    top: 5px;
-
-}
-#card {
+main {
     display:flex;
-    justify-content:space-between;
-    margin: 5px;
-    padding:5px;
-
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-#my-img1, #my-img2, #my-img3 {
-    display: flex;
-    justify-content: space-evenly;
+.main-container1, .main-container2, .main-container3 {
+    position:relative;
     border-radius: 10px;
     border-style: double;
     padding: 20px;
-    bottom: 5px;
+    text-align: center;
+   
+
 }
-
-
+.main-container1 #my-img1 #my-img2 #my-img3 {
+    height: auto;
+    width: 100%;
+}
+.main-container1:hover .violet-screen{
+    opacity: 0.5;
+    background-color:rgb(186, 114, 253);
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+.main-container2:hover .gray-screen{
+    opacity: 0.5;
+    background-color:gray;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+.main-container3:hover .orange-screen{
+    opacity: 0.5;
+    background-color:orange;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
 .skills, ul  {
     display: list-item;
     list-style: none;
@@ -101,7 +116,7 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    .sub-header, .main-container {
+    .sub-header, .main-container1, .main-container2, .main-container3 {
         width: 100%;
         background-color: orange;
         border-radius:5px;
@@ -110,14 +125,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .sub-header, .main-container {
+    .sub-header, .main-container1, .main-container2, .main-container3 {
         width: 100%;
         background:rgb(105, 103, 104);
         border-radius:5px;  
 
 }
 @media screen and (max-width: 576px) {
-    .sub-header, .main-container {
+    .sub-header, .main-container1, .main-container2, .main-container3 {
         width: 100%;
         background: blueviolet;
         border-radius:5px;
