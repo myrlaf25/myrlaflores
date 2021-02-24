@@ -45,6 +45,12 @@ nav {
     justify-content:space-evenly;
    
 }
+.sub-header p {
+    margin-left: 200px;
+    border-left-style: groove;
+    padding: 15px;
+    margin-right: 100px;
+}
   
 body {
     background: radial-gradient(circle, blanchedalmond, orange); 
