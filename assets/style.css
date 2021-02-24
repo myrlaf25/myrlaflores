@@ -59,9 +59,14 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     top: 5px;
 
+}
+#card {
+    display:flex;
+    justify-content:space-between;
+    margin: 10px;
 }
 #my-img1, #my-img2, #my-img3 {
     display: flex;
