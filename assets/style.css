@@ -45,6 +45,15 @@ nav {
     justify-content:space-evenly;
    
 }
+a:visited, a:link {
+    color:rgb(252, 245, 246);
+    background-color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    
+}
 .sub-header p {
     margin-left: 200px;
     border-left-style: groove;
@@ -63,9 +72,10 @@ body {
 }
 main {
     display:flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
     flex-wrap: wrap;
+    
 }
 .main-container1, .main-container2, .main-container3 {
     position:relative;
@@ -73,6 +83,8 @@ main {
     border-style: double;
     padding: 20px;
     text-align: center;
+    height:auto;
+    width:auto;
    
 
 }
