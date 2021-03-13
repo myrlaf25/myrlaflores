@@ -9,7 +9,8 @@
     padding: 1px;
     border-radius: 25px;
     margin-right: .5%;
-    margin-left:.5%;             
+    margin-left:.5%;   
+             
 }
 .masthead-intro {
     margin-top: 3%;
@@ -20,15 +21,23 @@
     -webkit-text-stroke: 2px black;
 }
 .masthead-heading {
-    margin-top: 1px;
+    margin-top: 1em;
     font-weight: bold;
-    font-size: 7em;
+    font-size: 4em;
     letter-spacing: 0.01em;
     text-transform:uppercase;
-    color:black;
+    color: coral;
     text-align: center;
     -webkit-text-stroke: 2px blanchedalmond;
 }
+
+h6 {
+    color:white;
+    text-align:center;
+    font-size: 1.5em;
+    -webkit-text-stroke: .7px black;
+}
+
 #my-img {
     text-align: center;
     top:25px;
@@ -39,6 +48,7 @@
     border-radius:50px;
     margin-top: 35px;
     margin-left:5%;
+    
 }    
 nav {
     display: flex;
@@ -84,9 +94,12 @@ main {
     border-radius: 10px;
     border-style: double;
     padding: 20px;
-    text-align: center;
+    text-align:left;
     height:auto;
-    width:auto;
+    width:min-content;
+    display:flex;
+    flex-direction:row;
+
    
 
 }
