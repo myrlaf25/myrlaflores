@@ -46,8 +46,8 @@ h6 {
     top:25px;
     float:left;
     padding-left: 10px;
-    width:0vh;
-    height: 350px; 
+    width:350px;
+    height: 375px; 
     border-radius:50px;
     margin-top: 35px;
     margin-left:5%;
@@ -108,7 +108,7 @@ main {
 
 }
 .main-container1 #my-img1 #my-img2 #my-img3 {
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 .main-container1:hover .violet-screen{
