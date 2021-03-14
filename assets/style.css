@@ -11,7 +11,8 @@
     border-radius: 25px;
     margin-right: .5%;
     margin-left:.5%; 
-    height: 600px;  
+    height: 680px;  
+    position: relative;
              
 }
 .masthead-intro {
@@ -64,6 +65,8 @@ a:visited, a:link {
     text-decoration: none;
     display:inline-block;
     border-radius: 10px;
+    color:darkblue;
+    font-style: oblique;
     
 }
 .sub-header p {
@@ -100,6 +103,7 @@ main {
     border-color: coral;
     border-width: 15px;
     align-items: flex-end;
+    display: flow-root;
    
 
 }
@@ -137,31 +141,45 @@ main {
     
 }
 
+.workContainer1, .workContainer2, .workContainer3 {
+    border-radius: 10px;
+    border-style: double;
+    padding: 20px;
+    width:min-content;
+    display: flow-root;
+    flex-direction:row;
+    border-color: coral;
+    border-width: 15px;
+    align-items: flex-end;
+    
+    
+}
 .workContainer {
     display:flex;
-    text-align:left;
-    border: solid coral;
-    border-radius: 15px;
-    border-style: double;
-    align-items: flex-end;  
-    border-width: 10px; 
-    
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
 .contact-info {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px;
     background-color:rgb(179, 179, 236);
     color:black;
     border-radius:20px;
     height: 200px;
     border: solid coral;
     border-width: 5px;
+    
 
+}
+.resume {
+    align-items: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-    .sub-header, .main-container1, .main-container2, .main-container3 {
+    .sub-header, .main-container1, .main-container2, .main-container3, .workContainer {
         width: 100%;
         background-color: rgb(248, 227, 188);
         border-radius:5px;
@@ -170,14 +188,14 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    .sub-header, .main-container1, .main-container2, .main-container3 {
+    .sub-header, .main-container1, .main-container2, .main-container3, .workContainer{
         width: 100%;
         background:rgb(220, 193, 247);
         border-radius:5px;  
 
 }
 @media screen and (max-width: 576px) {
-    .sub-header, .main-container1, .main-container2, .main-container3 {
+    .sub-header, .main-container1, .main-container2, .main-container3, .workContainer {
         width: 100%;
         background:  rgb(248, 227, 188);
         border-radius:5px;
