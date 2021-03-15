@@ -37,7 +37,8 @@
 h6 {
     color:black;
     text-align:center;
-    font-size: 1.5em;
+    font-size: 2em;
+    -webkit-text-stroke: .175px blanchedalmond;
     
 }
 
@@ -94,6 +95,7 @@ main {
 }
 .main-container1, .main-container2, .main-container3 {
     position:relative;
+    background-color:rgb(179, 179, 236);
     border-radius: 10px;
     border-style: double;
     padding: 20px;
@@ -164,8 +166,14 @@ main {
     text-align: center;
     
 }
+.weatherDes, .passwordDes, .projectDes {
+    text-align:center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
 .contact-info {
-    text-align: center;
+    text-align: justify;
     padding: 15px;
     background-color:rgb(179, 179, 236);
     color:black;
