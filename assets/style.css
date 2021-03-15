@@ -151,6 +151,8 @@ main {
     border-color: coral;
     border-width: 15px;
     align-items: flex-end;
+    background-color: rgb(80, 51, 80);
+    color:white;
     
     
 }
