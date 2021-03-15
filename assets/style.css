@@ -35,10 +35,10 @@
 }
 
 h6 {
-    color:black;
+    color:white;
     text-align:center;
     font-size: 2em;
-    -webkit-text-stroke: .175px blanchedalmond;
+    -webkit-text-stroke: .5px coral;
     
 }
 
