@@ -190,11 +190,11 @@ main {
 .contact-info {
     text-align: center;
     padding: 15px;
-    background-color:white;
+    background-color:rgb(255, 144, 144);
     color:black;
     border-radius:20px;
     height: 200px;
-    border: solid red;
+    border: solid black;
     border-width: 5px;
     
 
