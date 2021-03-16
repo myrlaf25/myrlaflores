@@ -109,7 +109,7 @@ main {
 }
 .main-container1, .main-container2, .main-container3 {
     position:relative;
-    background-color:black;
+    background-color:rgb(255, 144, 144);
     border-radius: 10px;
     border-style: double;
     padding: 20px;
@@ -120,7 +120,7 @@ main {
     border-width: 15px;
     align-items: flex-end;
     display: flow-root;
-    color: white;
+    color: black;
    
 
 }
@@ -168,8 +168,8 @@ main {
     border-color: red;
     border-width: 15px;
     align-items: flex-end;
-    background-color:rgb(141, 136, 136);
-    color:black;
+    background-color:black;
+    color:white;
     
     
 }
