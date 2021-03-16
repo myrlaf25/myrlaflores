@@ -130,7 +130,7 @@ main {
 }
 .main-container1:hover .violet-screen{
     opacity: 0.5;
-    background-color:rgb(186, 114, 253);
+    background-color:red;
     height: 100%;
     width: 100%;
     position:absolute;
@@ -145,7 +145,7 @@ main {
 }
 .main-container3:hover .orange-screen{
     opacity: 0.5;
-    background-color:orange;
+    background-color:red;
     height: 100%;
     width: 100%;
     position:absolute;
