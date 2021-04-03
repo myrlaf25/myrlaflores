@@ -163,6 +163,11 @@ main {
     text-decoration: solid;
     font-size: 20px;
     font-weight: bold;
+    color: rgba(0,0,0,.6);
+    background: #6e6e6e;
+    text-shadow: 3px 2px 3px rgba(14, 13, 13, 0.2);
+    margin: 200px;
+    border-radius: 20px;
     
 }
 
@@ -227,7 +232,7 @@ main {
 }
 
 @media screen and (max-width: 992px) {
-     .main-container1, .main-container2, .main-container3, .workContainer {
+     .main-container1, .main-container2, .main-container3, .workContainer, .skills {
 
         border-radius:5px;
         display:flex;
@@ -237,7 +242,7 @@ main {
 }}
 
 @media screen and (max-width: 768px) {
-     .main-container1, .main-container2, .main-container3, .workContainer {
+     .main-container1, .main-container2, .main-container3, .workContainer, .skills {
         border-radius:5px; 
         display:flex;
         flex-direction:row;
@@ -246,7 +251,7 @@ main {
 
 }}
 @media screen and (max-width: 576px) {
-    .main-container1, .main-container2, .main-container3, .workContainer {
+    .main-container1, .main-container2, .main-container3, .workContainer, .skills {
         border-radius:5px;
         display:flex;
         flex-direction:row;
@@ -278,6 +283,7 @@ main {
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
+       
         
        
 
