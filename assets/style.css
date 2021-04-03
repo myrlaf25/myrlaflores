@@ -128,6 +128,9 @@ main {
     border-width: 15px;
     position:relative;
     margin: 10px;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
 
 }
 .workContainer1:hover .violet-screen{
@@ -225,7 +228,7 @@ main {
 
 @media screen and (max-width: 992px) {
      .main-container1, .main-container2, .main-container3, .workContainer {
-        width: 100%;
+
         border-radius:5px;
         display:flex;
         flex-direction:row;
@@ -235,7 +238,6 @@ main {
 
 @media screen and (max-width: 768px) {
      .main-container1, .main-container2, .main-container3, .workContainer {
-        width: 100%;
         border-radius:5px; 
         display:flex;
         flex-direction:row;
@@ -245,7 +247,6 @@ main {
 }}
 @media screen and (max-width: 576px) {
     .main-container1, .main-container2, .main-container3, .workContainer {
-        width: 100%;
         border-radius:5px;
         display:flex;
         flex-direction:row;
@@ -257,30 +258,40 @@ main {
 
 @media screen and (max-width: 992px) {
     .masthead, .sub-header {
-        width: 100%;
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
-        flex-shrink: inherit;
+        
 }}
 
 @media screen and (max-width: 768px) {
     .masthead, .sub-header {
-        width: 100%;
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
-        flex-shrink: inherit;
+        
         
         
 }}
 @media screen and (max-width: 576px) {
-    .masthead, .sub-header {
-        width: 100%;
+    .masthead {
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
-        flex-shrink: inherit;
+        
+       
+
+
+} }
+@media screen and (max-width: 576px) {
+    .sub-header {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: black;
+        opacity: 0.8;
+        color:white;
+       
 
 
 } }
