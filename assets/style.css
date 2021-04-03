@@ -180,13 +180,6 @@ main {
     
 }
 
-.weatherDes, .passwordDes, .projectDes {
-    text-align:center;
-    margin-left: 200px;
-    margin-right: 200px;
-    display: inline-block;
-    
-}
 .contact-info {
     text-align: center;
     padding: 35px;
@@ -225,7 +218,7 @@ main {
 .violet-screen:hover .violet-screen{
     opacity: 0.5;
     background-color:blue;
-    height: 12%;
+    height: 13%;
     width: 13%;
     position:absolute;
 }
@@ -236,7 +229,6 @@ main {
         border-radius:5px;
         display:flex;
         flex-direction:row;
-        /* flex-shrink: inherit; */
         flex-wrap: wrap;
         overflow: auto;
 }}
