@@ -15,6 +15,8 @@
     flex-direction: row;
     height: 350px;
     align-items:inherit;
+    -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
+    box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
     
              
 }
@@ -119,6 +121,8 @@ main {
     justify-content: flex-end;
     flex-direction: column;
     margin: 15px;
+    -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
+    box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
     
    
 
@@ -164,12 +168,18 @@ main {
     text-decoration: solid;
     font-size: 20px;
     font-weight: bold;
-    color: rgba(0,0,0,.6);
-    background: #6e6e6e;
-    text-shadow: 3px 2px 3px rgba(14, 13, 13, 0.2);
+    color: rgba(12, 0, 0, 0.6);
+    background: #fff9f9;
+    text-shadow: 2px 5px 3px rgba(12, 0, 0, 0.2);
     margin: 200px;
     border-radius: 20px;
     
+}
+.skills{
+    -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
+    box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
+    border: solid black;
+    border-width: 1px;
 }
 
 .workContainer1, .workContainer2, .workContainer3 {
@@ -185,6 +195,8 @@ main {
     justify-content: flex-end;
     justify-content: flex-start;
     flex-direction: column;
+    -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
+    box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
     
     
 }
@@ -201,6 +213,8 @@ main {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
+    -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
+    box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
     
     
 }
@@ -222,6 +236,8 @@ main {
     border-radius: 20px;
     flex-direction: column;
     padding: 35px;
+    -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
+    box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
     
 }
 .violet-screen:hover .violet-screen{
