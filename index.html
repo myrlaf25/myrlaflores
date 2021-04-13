@@ -17,17 +17,16 @@
     
 </header>
 <div>
-<nav>
+<nav class='col-10 right'>
     <a class="#About Me" href="#aboutMe"> About Me</a>
     <a class="#My Work" href="#GitHub"> My Work</a>
     <a class="#Contact Me" href="#contactMe"> Contact Me</a>
-
 </nav>
 
 </div>
 <body>
 
-    <header class="sub-header">
+    <header class="col-12 sub-header">
         <div id="aboutMe"></div>
         <h2> About me </h2>
         <p>Hello, my name is Myrla Flores. I am new to the web development world. I am currently transitioning from working full time with the State of Arizona
@@ -46,35 +45,35 @@
 
 
     <main>
-        <div class="main-container1">
+        <div class="col-3 main-container1">
 
             <div class="violet-screen"></div>
             <h5>One of my hobbies</h5>
-            <img id="my-img1" src="./assets/gatespass.JPG" alt="photo holder" width="300" height="350">
+            <img id="my-img1" src="./assets/gatespass.JPG" alt="photo holder" >
         
         
             <p><strong>I like the outdoors. This is a picture I took of Gates Pass in Tucson, AZ, while I was
                     hiking.</strong></p>
         </div>
-        <div class="main-container2">
+        <div class="col-3 main-container2">
             <div class="violet-screen"></div>
             <h5>One of my goals</h5>
-            <img id="my-img2" src="./assets/oldmainstairs.jpg" alt="photo holder" width="300" height="350">
+            <img id="my-img2" src="./assets/oldmainstairs.jpg" alt="photo holder" >
             <p><strong>I would love to learn professional photography. This is another one of my
                     pictures.</strong></p>
         </div>
         
-        <div class="main-container3">
+        <div class="col-3 main-container3">
             <div class="violet-screen"></div>
             <h5>Things I enjoy</h5>
-            <img id="my-img3" src="./assets/guitarsugarskull.jpg" alt="photo holder" width="300" height="350">
+            <img id="my-img3" src="./assets/guitarsugarskull.jpg" alt="photo holder" >
             <p><strong>I enjoy sketching, coloring, painting, and playing my guitar.</strong></p>
         
         </div>
         
     </main>
 
-    <section class="skills">
+    <section class=" col-7 skills">
         
         <div>
         <h3>Some of the things I am learning in Web Development Bootcamp. </h3>
@@ -102,22 +101,22 @@
     
     <div class="container">
         <div class="row">
-          <div class="col-sm workContainer1">
+          <div class="col-4 workContainer1">
             <div class="violet-screen"></div>
                 <h3> Weather Dashboard</h3>
                     
-                    <img src="./assets/myweatherapp.png" alt="photo placeholder" width='280' height='300'> </a>
+                    <img id='weather' src="./assets/myweatherapp.png" alt="photo placeholder" width='280' height='300'> </a>
                     
                     <p> This app was created using HTML, CSS, JavaScript and an API. Most of the elements were created dynamically. This app will generate the current weather and a 5-day forecast.</p>
-                    <h4><a href="https://myrlaf25.github.io/myweatherapp/.">Webpage Link</a></h4> 
+                    <h4><a  href="https://myrlaf25.github.io/myweatherapp/.">Webpage Link</a></h4> 
                     <p> Link to my repo site:<a href="https://github.com/myrlaf25/myweatherapp">Weather Dashboard Repo</a></p>
                     
           </div>
-          <div class="col-sm workContainer2">
+          <div class="col-4 workContainer2">
             <div class="violet-screen"></div>
                 <h3> Password Generator</h3>
                    
-                    <img src="./assets/passwordgenerator.png" alt="photo placeholder" width='280' height='300'> </a>
+                    <img id='password' src="./assets/passwordgenerator.png" alt="photo placeholder" width='280' height='300'> </a>
                    
                     <p> This app was created using HTML, CSS and JavaScript. Most of the elements were created dynamically. 
                         This will generate a random password for the user with set criteria. </p>
@@ -125,11 +124,11 @@
                     <p> Link to my repo site:<a href="https://github.com/myrlaf25/passwordgenerator">Password Generator Repo</a></p>
                     
           </div>
-          <div class="col-sm workContainer3">
+          <div class="col-4 workContainer3">
             <div class="violet-screen"></div>
                 <h3> First Group Project</h3>
                     
-                    <img src="./assets/project1.png" alt="photo placeholder" width='280' height='300'>
+                    <img id='project1' src="./assets/project1.png" alt="photo placeholder" width='280' height='300'>
                   
                     <h6> Group Project Contributors: Kate Biernat, Breon Sparrow, and Kyle Simone.</h6>  
                     <p>We used HTML, CSS, Javascript, and 2 different APIs. The app generate a random picture of a puppy, 
@@ -140,11 +139,10 @@
                    
                     
           </div>
-        </div>
-      </div>
+        
 
    <div>
-       <div class="resume">
+       <div class="col-8 resume">
         
            <h5> Click to download resume:</h5>
            
@@ -153,7 +151,7 @@
             <img src="./assets/RESUME.png" alt="photo placeholder" width='200' height='100'> </a>
             </div>
    </div>
-        <footer class="contact-info" id="contactMe">
+        <footer class="col-10 contact-info" id="contactMe">
            <h5>Contact Information:</h5>
             <p>Myrla Flores</p>
             <p>Phone: 520-245-9119</p>
@@ -162,10 +160,10 @@
                 <img src="https://images.unsplash.com/photo-1592181572975-1d0d8880d175?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1793&q=80" alt="photo placeholder" width='200' height='100'> </a></p>
             
             <h3> Thank you for stopping by!</h3>
-            <a href="#top">Top Page</a>
-
+            
         </footer>
-    
+        <a href="#top">Top Page</a>
+    </div>
 </body>
 
 </html>
