@@ -185,6 +185,11 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#top-page {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
 
 .workContainer1, .workContainer2, .workContainer3, .workContainer4 {
     position:relative;
