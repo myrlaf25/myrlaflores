@@ -146,36 +146,15 @@ main {
     -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
     box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
 }
-.workContainer1:hover .violet-screen{
-    opacity: 0.5;
-    background-color:blue;
-    height: 60%;
-    width: 100%;
-    position:absolute;
-}
-.workContainer2:hover .violet-screen{
-    opacity: 0.5;
-    background-color:blue;
-    height: 60%;
-    width: 100%;
-    position:absolute;
-    
-}
-.workContainer3:hover .violet-screen{
-    opacity: 0.5;
-    background-color:blue;
-    height: 55%;
-    width: 100%;
-    position:absolute;
-}
-#weather, #password, #my-img3 {
+
+#weather, #password, #project1, #project2 {
     border-radius: 20px;
-    border-width: 5px;
     position:relative;
-    margin: 10px;
-    justify-content: flex-end;
+    margin-bottom: 20px;;
+    /* justify-content: flex-end; */
     justify-content: flex-start;
     flex-direction: column;
+    font-size: smaller;
     -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
     box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
 }
@@ -202,25 +181,28 @@ main {
     box-shadow: 10px 12px 10px 5px rgba(0,0,0,0.73);
     border: solid black;
     border-width: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.workContainer1, .workContainer2, .workContainer3 {
-    border-radius: 10px;
-    border-style: double;
-    padding: 20px;
-    border-width: 10px;
-    align-items: center;
+.workContainer1, .workContainer2, .workContainer3, .workContainer4 {
     position:relative;
-    background-color:black;
-    color:white;
+    border-radius: 10px;
+    border:solid black;
+    padding: 20px;
+    width:min-content;
+    height: min-content;
     display:flex;
-    justify-content: flex-end;
+    border-width: 5px;
+    color: black;
     justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
+    margin: 15px;
+    margin-top:20px;
     -webkit-box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73); 
     box-shadow: 17px 15px 17px 9px rgba(0,0,0,0.73);
-    
-    
 }
 
 .contact-info {
@@ -231,7 +213,7 @@ main {
     /* border: solid red; */
     border-width: 8px;
     /* height: min-content; */
-    margin: 140px;
+    margin: auto;
     background-image: url(https://images.unsplash.com/photo-1527843812948-a8c2ddd2fb68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80); 
     background-repeat: no-repeat;
     background-position: center center;
