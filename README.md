@@ -23,7 +23,7 @@ I added these links to the top of my page and they are all clickable but was not
 <a class="GitHub" href="https://github.com/myrlaf25"> GitHub</a>
 <a class="LinkedIn" href="https://www.linkedin.com/in/myrla-flores-756068200/"> LinkedIn </a>
 
-<a href="mailto:myrlaf25@gmail.com">Send me an Email</a>
+<a href="mailto:myrlaf25@gmail.com">myrlaf25@gmail.com</a>
 
 
 I also want to mention, most of the pictures are my own with the exception of the header background.
