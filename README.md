@@ -12,7 +12,7 @@ It was challenging to create this webpage from scratch yet it has been of great 
 
 I was able to add a recent photo of me and a link send me an email.
 
-<img id="my-img" src="./assets/me and skids-1.jpg" alt="photo holder">
+<img id="my-img" src="./assets/photos/meinpink.jpg" alt="photo holder">
 
 I added these links to the top of my page and they are all clickable but was not able to link them all. I also added a link to GitHub and LinkedIn at the bottom of the page.
 
