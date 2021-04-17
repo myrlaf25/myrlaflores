@@ -211,6 +211,7 @@ html, body {
     .work-container, 
     .container,
     header,
+    body,
     footer {
       flex-direction: column;
     }
@@ -235,6 +236,8 @@ html, body {
     .work-container, 
     .container,
     header,
+    body,
+    #skills,
     footer {
       flex-direction: column;
     }
@@ -259,6 +262,8 @@ html, body {
     .work-container, 
     .container,
     header,
+    body,
+    #skills,
     footer {
       flex-direction: column;
     }
