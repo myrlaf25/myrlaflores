@@ -208,10 +208,12 @@ html, body {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
     nav, 
+    .jumbotron,
     .work-container, 
     .container,
     header,
     body,
+    #skills,
     footer {
       flex-direction: column;
     }
@@ -233,6 +235,7 @@ html, body {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
     nav, 
+    .jumbotron,
     .work-container, 
     .container,
     header,
@@ -259,6 +262,7 @@ html, body {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
     nav, 
+    .jumbotron,
     .work-container, 
     .container,
     header,
