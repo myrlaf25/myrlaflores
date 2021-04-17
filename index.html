@@ -1,184 +1,167 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="masthead">
+          <img id="my-img" src="./assets/meinpink.jpg" alt="photo holder" />
+        </div>
+        <h1>Myrla Flores</h1>
+        <p>A new way to look at things</p>
+        <a class="btn" href="#aboutMe"> About Me</a>
+      </div>
+    </div>
 
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>MyrlaFlores</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-</head>
-<header>
-    <div class="masthead">
-    <img id="my-img" src="./assets/photos/meinpink.jpg" alt="photo holder">
-    
-    <h1 class="masthead-heading" >Myrla Flores</h1>
-    <h6 id="heading"> A new way to look at things</h6>
-</div>
-    
-</header>
-<div>
-<nav class='col-10 right'>
-    <a class="#About Me" href="#aboutMe"> About Me</a>
-    <a class="#My Work" href="#GitHub"> My Work</a>
-    <a class="#Contact Me" href="#contactMe"> Contact Me</a>
-</nav>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li><a class="#My Work" href="#github"> My Work</a></li>
+          <li><a class="#skills" href="#skills"> Skills</a></li>
+          <li><a class="#Contact Me" href="#contactMe"> Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
 
-</div>
-<body>
-    <div class="text-center sm:text-left">
-    <header class="col-12 sub-header">
+    <div class="main">
+      <div class="container">
+        <a class="violet-screen" href="./assets/Flores-Resume 03-12-2021.png">
+          <img
+            class="resume"
+            src="./assets/RESUME.png"
+            height="128"
+            width="196"></a>
         <div id="aboutMe"></div>
-        <h2> About me </h2>
-        <p>Hello, my name is Myrla Flores. I am new to the web development world. I am currently enrolled in the Full Stack Coding Bootcamp through the University of Arizona.
-            </p>
-            
-        <p>I currently reside
-            in Tucson, AZ. I have a Bachelor’s of Science in Psychology from The University
-            of Arizona. Most of my work experience in is Case Management.</p> 
+        <h2>About Me</h2>
+        <p>
+          Hello, my name is Myrla Flores. I am new to the web development world.
+          I am currently enrolled in the Full Stack Coding Bootcamp through the
+          University of Arizona.
+        </p>
+        <p>
+          I currently reside in Tucson, AZ. I have a Bachelor’s of Science in
+          Psychology from The University of Arizona. Most of my work experience
+          in is Case Management.
+        </p>
+        <p>
+          This has been a very challenging experience yet it has been very
+          rewarding. I have always enjoyed creating things and computers. This
+          is the reason why I decided that Web Development was for me.
+        </p>
         
-        <p>This has been a very challenging experience yet it has been very rewarding. I have always enjoyed creating things and computers.
-            This is the reason why I decided that Web Development was for me. </p>
-        <h2> Also...</h2>
-    </header>
+      </div>
+    </div> 
+    <a id="top-page" href="#top">Top Page</a>
 
+    <div class="jumbotron">
+      <div class="container">
+        <h2 style='color:darkred;'>My Work</h2>
+        <p>You may find my work on:</p>
+        <a class="btn" id="github" href="https://github.com/myrlaf25"
+          ><img
+            src="https://s19386.pcdn.co/wp-content/uploads/2017/10/github-logo-1.png"
+            alt="photo placeholder"
+            width="200"
+            height="100"
+        /></a>
+      </div>
+    </div>
+    <div class='work-container'>
 
-    <main>
-        <div class="col-3 main-container1">
-
-           
-            <h5>One of my hobbies</h5>
-            <img id="my-img1" src="./assets/photos/gatespass.JPG" alt="photo holder" class="img-circle">
-        
-        
-            <p><strong>I like the outdoors. I took this picture at Gates Pass in Tucson, AZ, while hiking.</strong></p>
-        </div>
-        <div class="col-3 main-container2">
-            
-            <h5>One of my goals</h5>
-            <img id="my-img2" src="./assets/photos/oldmainstairs.jpg" alt="photo holder" class="img-circle">
-            <p><strong>I would love to learn professional photography. I took this picture of Old Main building at the UofA.</strong></p>
-        </div>
-        
-        <div class="col-3 main-container3">
-            
-            <h5>Things I enjoy</h5>
-            <img id="my-img3" src="./assets/photos/guitarsugarskull.jpg" alt="photo holder" class="img-circle">
-            <p><strong>I enjoy sketching, coloring, painting, and playing the guitar.</strong></p>
-        
-        </div>
-        
-    </main>
-
-    <section class=" col-7 skills">
-        
-        <div>
-        <h3>Some of the things I am learning in Web Development Bootcamp. </h3>
-            <ul>
-                <li> HTML</li>
-                <li>CSS</li>
-                <li>Flexbox</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-                <li>MySQL</li>
-                <li>Node.JS</li>
-                <li>Sequelize</li>
-                <li>Express</li>
-                <li>and more to come...</li>
-            </ul>
-        </h5>
-        <h4> You may find some of my work on:
-        <a class="GitHub" id="GitHub" href="https://github.com/myrlaf25">
-            <img src="https://s19386.pcdn.co/wp-content/uploads/2017/10/github-logo-1.png" alt="photo placeholder" width='200' height='100'></a></h4>
-        </div>
-
-    </section>
-   
-    
-    <div class="container">
-       
-          <div class="col-6 workContainer1">
-           
-                <h3> Weather Dashboard</h3>
+      <div class='weather'>
+        <h2> Weather Dashboard</h2>
+                    <div>
+                    <img id='weather' src="./assets/myweatherapp.png" alt="photo placeholder" width='128' height='196'> </a>
                     
-                    <img class="violet-screen" id='weather' src="./assets/photos/myweatherapp.png" alt="photo placeholder" width='280' height='300'> </a>
-                    
-                    <p> This app was created using HTML, CSS, JavaScript and an API. Most of the elements were created dynamically. This app will generate the current weather and a 5-day forecast.</p>
-                    <h4><a  href="https://myrlaf25.github.io/myweatherapp/.">Webpage Link</a></h4> 
-                    <p> Link to the repo site:<a href="https://github.com/myrlaf25/myweatherapp">Weather Dashboard Repo</a></p>
-                    
-          </div>
-       
-          <div class="col-6 workContainer2">
-           
-                <h3> Password Generator</h3>
-                   
-                    <img id='password' src="./assets/photos/passwordgenerator.png" alt="photo placeholder" width='280' height='300'> </a>
-                
-                    <p> This app was created using HTML, CSS and JavaScript. Most of the elements were created dynamically. 
-                        This will generate a random password for the user with set criteria. </p>
-                    <h4> <a href="https://myrlaf25.github.io/passwordgenerator/">Webpage Link</a></h4> 
-                    <p> Link to the repo site:<a href="https://github.com/myrlaf25/passwordgenerator">Password Generator Repo</a></p>
-                    
+                    <p style='color:black;'> This app was created using HTML, CSS, JavaScript and an API. Most of the elements were created dynamically. This app will generate the current weather and a 5-day forecast.</p>
+                    <a  href="https://myrlaf25.github.io/myweatherapp/.">Website Link</a>
+                    <p style='color:black;'> Link to the repo site:<a href="https://github.com/myrlaf25/myweatherapp">Weather Dashboard Repo</a></p>
                 </div>
-           
-          <div class="col-6 workContainer3">
-          
-                <h3> 1st Group Project</h3>
-                    
-                    <img id='project1' src="./assets/photos/project1.png" alt="photo placeholder" width='280' height='300'>
-                  
-                    <h6> Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone and myself.</h6>  
-                    <p>We used HTML, CSS, Javascript, and 2 different APIs. The app generate a random picture of a puppy, 
-                        a random joke, the current weather, and a 5 day forecast. </p> 
-                      
-                        <h4><a href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">Webpage Link</a></h4> 
-                        <p> Link to the repo site:<a href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast">Project 1 Repo</a> </p>
-                   
-                    
-                    </div>  
-             
-         
-          <div class="col-6 workContainer4">
-           
-                <h3> 2nd Group Project</h3>
-                    
-                    <img id='project2' src="./assets/photos/project2-screenshot.png" alt="photo placeholder" width='280' height='300'>
-                  
-                    <h6> Group Project Contributors: Triston Burns, Hanna Ferris and myself.</h6>  
+        </div>
+    
+    <div class='project1'>
+        <h2> 1st Group Project</h2>
+        <div>
+            <img id='project1' src="./assets/project1.png" alt="photo placeholder" width='128' height='196'>
+            
+            <h6> Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone and myself.</h6>  
+            <p>We used HTML, CSS, Javascript, and 2 different APIs. The app generate a random picture of a puppy, 
+                a random joke, the current weather, and a 5 day forecast. </p> 
+                
+                <h4><a href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">Website Link</a></h4> 
+                <p> Link to the repo site:<a href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast">Project 1 Repo</a> </p>
+                
+            </div>
+        </div>
+        <div class='project1'>
+            <h2> 2nd Group Project</h2>
+            <div>
+                <img id='project2' src="./assets/project2-screenshot.png" alt="photo placeholder" width='128' height='196'>
+                
+                <h6> Group Project Contributors: Triston Burns, Hanna Ferris and myself.</h6>  
                     <p>We used HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js, Express,js, email-validator, Handlebars. This is a job website. </p> 
                       
-                        <h4><a href="https://gedditdone.herokuapp.com/">Webpage Link</a></h4> 
+                        <h4><a href="https://gedditdone.herokuapp.com/">Website Link</a></h4> 
                         <p> Link to the repo site:<a href="https://github.com/tbsdvl/GedditDone">Project 2 Repo</a> </p>
-                   
                     
-                    
-          </div>
-        </div>
-    
-       <div class="col-8 resume">
-        
-           <h5> Click to download resume:</h5>
-           
-            <a class="violet-screen" href="assets/photos/Flores-Resume 03-12-2021.png">
-                <div class="violet-screen"></div>
-            <img src="./assets/photos/RESUME.png" alt="photo placeholder" width='200' height='100'> </a>
+                </div>
             </div>
-   </div>
-        <footer class="col-10 contact-info" id="contactMe">
-           <h5>Contact Information:</h5>
-            <p>Myrla Flores</p>
-            <p>Phone: 520-245-9119</p>
-            <p>Send me an email:<a href="mailto:myrlaf25@gmail.com">  myrlaf25@gmail.com.</a></p>
-            <p>Visit my <a class="LinkedIn" href="https://www.linkedin.com/in/myrla-flores-756068200/"> 
-                <img src="https://images.unsplash.com/photo-1592181572975-1d0d8880d175?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1793&q=80" alt="photo placeholder" width='200' height='100'> </a></p>
-            
-            <h3> Thank you for stopping by!</h3>
-            
-        </footer>
-        <a id='top-page' href="#top">Top Page</a>
-    </div>
-</div>
-</body>
+        <div class='password'>
+            <h2> Password Generator</h2>
+                   <div>
+                    <img id='password' src="./assets/passwordgenerator.png" alt="photo placeholder" width='128' height='196'></a>
+                
+                    <p style='color:black;'> This app was created using HTML, CSS and JavaScript. Most of the elements were created dynamically. 
+                        This will generate a random password for the user with set criteria. </p>
+                    <h4> <a href="https://myrlaf25.github.io/passwordgenerator/">Website Link</a></h4> 
+                    <p style='color:black;'> Link to the repo site:<a href="https://github.com/myrlaf25/passwordgenerator">Password Generator Repo</a></p>
+                    </div>
+        </div>
+    </div> <a id="top-page" href="#top">Top Page</a>
+    <div id='skills'>
+        <div class='skills-list'>
+        <h3 style='color:black;background-color: white;'>Some of the things I am learning in Web Development Bootcamp. </h3>
+        <ul>
+            <li> HTML</li>
+            <li>CSS</li>
+            <li>Flexbox</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>jQuery</li>
+            <li>MySQL</li>
+            <li>Node.JS</li>
+            <li>Sequelize</li>
+            <li>Express</li>
+            <li>and more to come...</li>
+        </ul>
 
+
+    </div>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <ul>
+            <li id='contactMe' style='color:black;'>Contanct Information: </li>
+            <li style='color:black;'>Myrla Flores</li>
+            <li style='color:black;'>Phone: 520-245-9119</li>
+            <li style='color:black;'>Send me an email:<a href="mailto:myrlaf25@gmail.com">  myrlaf25@gmail.com.</a></li>
+            <li style='color:black;'>Visit my <a class="LinkedIn" href="https://www.linkedin.com/in/myrla-flores-756068200/"> 
+                <img style='align-items: center;'id='linkedin' src="https://images.unsplash.com/photo-1592181572975-1d0d8880d175?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1793&q=80" alt="photo placeholder" width='120' height='100'></a></li>
+
+        </ul>
+        
+        <a id="top-page" href="#top">Top Page</a>
+        
+        <h3 style='color:black; text-align: center;'> Thank you for stopping by!</h3>
+    </div>
+    <p style='background-color: black; color:white; text-align: center;'>&copy; Created by Myrla</p>
+    </div>
+  </body>
 </html>
