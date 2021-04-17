@@ -174,7 +174,7 @@ html, body {
     padding: 10px;
     width: 100%;
     height: 50%;
-    font-size: small;
+    /* font-size: small; */
     background-color:rgb(165, 63, 63);
     border-radius: 65px;
     
@@ -199,7 +199,7 @@ html, body {
     padding: 10px;
     width: 100%;
     height:50%;
-    font-size: small;
+    /* font-size: small; */
     background-color:rgb(247, 130, 34);
     border-radius: 65px;
     
@@ -221,15 +221,6 @@ html, body {
     aside {
       order: 2;
     }
-    /* Change the header background */
-    header {
-      background: #772014;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #bb8588;
-    }
   }
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
@@ -248,14 +239,8 @@ html, body {
     aside {
       order: 2;
     }
-    /* Change the header background */
-    header {
-      background: #772014;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #bb8588;
+    .work-container{
+        font-size:large;
     }
   }
   @media screen and (max-width: 600px) {
@@ -275,14 +260,8 @@ html, body {
     aside {
       order: 2;
     }
-    /* Change the header background */
-    header {
-      background: #772014;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #bb8588;
+    .work-container{
+        font-size:large;
     }
   }
   #skills {
