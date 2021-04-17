@@ -204,7 +204,55 @@ html, body {
     border-radius: 65px;
     
 }
+@media screen and (max-width: 992px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav, 
+    .work-container, 
+    .container,
+    header,
+    footer {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
 @media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav, 
+    .work-container, 
+    .container,
+    header,
+    footer {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
+  @media screen and (max-width: 600px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
     nav, 
