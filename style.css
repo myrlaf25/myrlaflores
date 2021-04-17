@@ -221,6 +221,12 @@ html, body {
     aside {
       order: 2;
     }
+    .work-container, #skills{
+        font-size:large;
+    }
+    #weather, #password, #project1, #project2{
+        width:60%;
+    }
   }
 @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
@@ -239,8 +245,11 @@ html, body {
     aside {
       order: 2;
     }
-    .work-container{
+    .work-container, #skills{
         font-size:large;
+    }
+    #weather, #password, #project1, #project2{
+        width:70%;
     }
   }
   @media screen and (max-width: 600px) {
@@ -260,8 +269,11 @@ html, body {
     aside {
       order: 2;
     }
-    .work-container{
+    .work-container, #skills{
         font-size:large;
+    }
+    #weather, #password, #project1, #project2{
+        width:80%;
     }
   }
   #skills {
